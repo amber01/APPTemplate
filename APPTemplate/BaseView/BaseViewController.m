@@ -61,19 +61,14 @@
 
 - (void)customNavigationTitle
 {
-    for(NSString *fontfamilyname in [UIFont familyNames])
-    {
-        NSLog(@"family:'%@'",fontfamilyname);
-        for(NSString *fontName in [UIFont fontNamesForFamilyName:fontfamilyname])
-        {
-            NSLog(@"\tfont:'%@'",fontName);
-        }
-        NSLog(@"-------------");
+    NSArray * fontArrays = [[NSArray alloc] initWithArray:[UIFont familyNames]];
+    for (NSString * temp in fontArrays) {
+        NSLog(@"Font name  = %@", temp);
     }
     
     titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 64/2, self.view.frame.size.width, 20)];
     titleLabel.textAlignment =  NSTextAlignmentCenter;
-    titleLabel.font = [UIFont fontWithName:@"Courier New" size:19];
+    titleLabel.font = [UIFont fontWithName:@"Thonburi" size:19];
     titleLabel.textColor = [UIColor blackColor];
     [self.navigationView addSubview:titleLabel];
 }

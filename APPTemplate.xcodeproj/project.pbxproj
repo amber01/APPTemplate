@@ -55,7 +55,6 @@
 		DBEF69A11B7D7CEE0060C04C /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		DBEF69A21B7D7CEE0060C04C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DBEF69A31B7D7CEE0060C04C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		DBEF69A71B7D881D0060C04C /* gcdsn00m.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gcdsn00m.ttf; sourceTree = "<group>"; };
 		DBEF69AB1B7D9C180060C04C /* navbar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_back@2x.png"; sourceTree = "<group>"; };
 		DBEF69AD1B7DC4080060C04C /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		DBEF69AE1B7DC4080060C04C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
@@ -128,7 +127,6 @@
 		DBEF69A61B7D880A0060C04C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				DBEF69A71B7D881D0060C04C /* gcdsn00m.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -219,8 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				DBFB88121B7C9C10006E2831 /* Controller */,
-				DBFB88131B7C9C10006E2831 /* Model */,
 				DBFB88141B7C9C10006E2831 /* View */,
+				DBFB88131B7C9C10006E2831 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -330,8 +328,8 @@
 			isa = PBXGroup;
 			children = (
 				DBFB882E1B7C9DE7006E2831 /* Controller */,
-				DBFB882F1B7C9DE7006E2831 /* Model */,
 				DBFB88301B7C9DE7006E2831 /* View */,
+				DBFB882F1B7C9DE7006E2831 /* Model */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -363,8 +361,8 @@
 			isa = PBXGroup;
 			children = (
 				DBFB88321B7C9DF1006E2831 /* Controller */,
-				DBFB88331B7C9DF1006E2831 /* Model */,
 				DBFB88341B7C9DF1006E2831 /* View */,
+				DBFB88331B7C9DF1006E2831 /* Model */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -429,8 +427,8 @@
 			isa = PBXGroup;
 			children = (
 				DBFB883A1B7C9DF1006E2831 /* Controller */,
-				DBFB883B1B7C9DF1006E2831 /* Model */,
 				DBFB883C1B7C9DF1006E2831 /* View */,
+				DBFB883B1B7C9DF1006E2831 /* Model */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
